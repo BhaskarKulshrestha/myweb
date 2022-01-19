@@ -1,0 +1,35 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.btn{
+    background-color: var(--main-bg-color);
+    color: white;
+    border: 2px solid #ece904;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;  
+    transition-property: width ;
+    /* transition-property:height ; */
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    /* it gives the hand cursor */
+}
+.btn:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    /* font-stretch: 129px; */
+    transform: translateX(12px);
+}
+
+.my-1{
+    margin: 6px 0;
+}
+.my-2{
+    margin: 26px 0;
+}
+
+.text-center{
+    text-align: center;
+}
